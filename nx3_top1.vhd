@@ -18,9 +18,9 @@ entity nx3_top is
   Port ( clk      : in  STD_LOGIC; -- Clock input.
          buttons  : in  STD_LOGIC_VECTOR (4 downto 0);  -- centre, left, up, right, down
 			--		  Buttons mapped as follows		--
-			--		#					[00100]				--
+			--	#					[00100]				--
 			-- #	#	#	[01000]	[10000]	[00010]	--
-			--		#					[00001]				--
+			--	#					[00001]				--
 			--													--
          switches : in  STD_LOGIC_VECTOR (7 downto 0);  
          leds     : out  STD_LOGIC_VECTOR (7 downto 0);
